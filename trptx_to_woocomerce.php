@@ -85,7 +85,7 @@ include TRPTX_TO_PLUGIN_PATH .
 
 });
 }
-
+ 
 ///////////////////////////////////////////////////  Aactive Plugin /////////////////////////
 register_activation_hook(__FILE__, function () {
 add_option("trptx_woo_api_key", "");
